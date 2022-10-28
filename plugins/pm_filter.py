@@ -108,8 +108,8 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton('🙏 Movie channel 🙏', url='https://t.me/FILMY_PITARA'),
-        InlineKeyboardButton('🙏 Backup channel 🙏', url='https://t.me/F_pitara')
+        InlineKeyboardButton('🙏 Movie channel 🙏', url='https://t.me/Southfilmymovie'),
+        InlineKeyboardButton('🙏 Backup channel 🙏', url='https://t.me/MRTAGVLOGMOVIE')
 
 
     ])
@@ -145,10 +145,10 @@ async def advantage_spoll_choker(bot, query):
                text=(M_NT_FND),
                reply_markup=InlineKeyboardMarkup(
                                       [[
-                                        InlineKeyboardButton('💢 Request to admin 💢', url="https://t.me/Rajneesh_Singh_Tomar"),
+                                        InlineKeyboardButton('💢 Request to admin 💢', url="https://t.me/HACKERVINODSERA"),
         
                                        ],[
-                                        InlineKeyboardButton('💢 Join Movie Channel 💢', url="https://t.me/FILMY_PITARA"),                                
+                                        InlineKeyboardButton('💢 Join Movie Channel 💢', url="https://t.me/Southfilmymovie"),                                
                                       ]]
                ),
                parse_mode='html'
@@ -423,9 +423,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('✳️ Add Me To Your Groups ✳️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥', url='https://t.me/FILMY_PITARA'),
+            InlineKeyboardButton('🔥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥', url='https://t.me/Southfilmymovie'),
             InlineKeyboardButton('❗️Bot Owner❗️', callback_data='owner'),
-            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/Epic_creation_bots')
+            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/MRTAGVLOGMOVIE')
             ],[
             InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ About ♻️', callback_data='about')
@@ -458,7 +458,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton('♻️ 𝗦𝘁𝗮𝘁𝘀 ♻️', callback_data='stats'),
             InlineKeyboardButton('𝚄𝚁𝙻 𝚂𝙷𝙾𝚁𝚃', callback_data='urlshort'),
-            InlineKeyboardButton(' 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/Rajneesh_Singh_Tomar')
+            InlineKeyboardButton(' 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/HACKERVINODSERA')
         ], [
             InlineKeyboardButton('𝚈𝚃-𝚃𝙷𝚄𝙼𝙱', callback_data='ytthumb'),
             InlineKeyboardButton('video', callback_data='video'),
@@ -480,7 +480,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝗖𝗹𝗼𝘀𝗲 🔐', callback_data='close_data')
         ], [
-            InlineKeyboardButton('📞 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/Rajneesh_Singh_Tomar'),
+            InlineKeyboardButton('📞 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/HACKERVINODSERA'),
             InlineKeyboardButton('❤️ Donation ❤️', callback_data='malik')
         ], [
             InlineKeyboardButton('🚶‍♀ 𝙱𝙰𝙲𝙺 🚶‍♀', callback_data='start')
@@ -861,9 +861,9 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🌹 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
         )
     btn.insert(0, [
-                 InlineKeyboardButton('🙏 Movie channel 🙏', url='https://t.me/FILMY_PITARA'),
+                 InlineKeyboardButton('🙏 Movie channel 🙏', url='https://t.me/Southfilmymovie'),
 
-                  InlineKeyboardButton('🙏 Backup channel 🙏', url='https://t.me/F_pitara')    ])
+                  InlineKeyboardButton('🙏 Backup channel 🙏', url='https://t.me/MRTAGVLOGMOVIE')    ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
     if imdb:
