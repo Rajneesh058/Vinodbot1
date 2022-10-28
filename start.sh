@@ -1,12 +1,12 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Rajneesh058/movie-finder-bot058 /movie-finder-bot058
+  git clone https://github.com/Vinodbots /vinodbots
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /movie-finder-bot058
+  git clone $UPSTREAM_REPO /vinodbots
 fi
-cd /movie-finder-bot058
+cd /vinodbots
 pip3 install -U -r requirements.txt
 echo "Starting Bot....💥"
 python3 bot.py
