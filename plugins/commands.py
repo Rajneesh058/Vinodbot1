@@ -62,7 +62,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔗 Url Shortner 🔗', callback_data='urlshortn')
             ],[
-            InlineKeyboardButton('✅ Subscribe my YouTube channel  ✅', url='https://youtu.be/bsC_bsci6wIGᴇᴛ')
+            InlineKeyboardButton('✅ Subscribe my YouTube channel  ✅', url='https://youtube.com/channel/UC9W-Gm-3UpLsIvZGzL9gJpA')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -113,7 +113,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔗 Url Shortner 🔗', callback_data='urlshortn')
             ],[
-            InlineKeyboardButton('✅ Subscribe my YouTube channel  ✅', url='https://youtu.be/bsC_bsci6wIGᴇᴛ')
+            InlineKeyboardButton('✅ Subscribe my YouTube channel  ✅', url='https://youtube.com/channel/UC9W-Gm-3UpLsIvZGzL9gJpA')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
