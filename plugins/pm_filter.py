@@ -437,7 +437,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🔗 Url Shortner 🔗', callback_data='urlshortn')
             ],[
-            InlineKeyboardButton('✅ Subscribe my YouTube channel ✅', url='https://youtu.be/bsC_bsci6wIGᴇᴛ')
+            InlineKeyboardButton('✅ Subscribe my YouTube channel ✅', url='https://youtube.com/channel/UC9W-Gm-3UpLsIvZGzL9gJpA')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
