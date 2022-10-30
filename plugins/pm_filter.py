@@ -1,4 +1,4 @@
-# Kanged From @sahid malik
+# Kanged From @Rajneesh058
 import asyncio
 import re
 import ast
@@ -437,7 +437,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🔗 Url Shortner 🔗', callback_data='urlshortn')
             ],[
-            InlineKeyboardButton('✅ Subscribe my YouTube channel ✅', url='https://youtube.com/channel/UCFDpDpnOgcoztiiIkjnJYfw')
+            InlineKeyboardButton('✅ Subscribe my YouTube channel ✅', url='https://youtu.be/bsC_bsci6wIGᴇᴛ')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -564,7 +564,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner":
         buttons = [[
             InlineKeyboardButton('🚶 𝗕𝗮𝗰𝗸 🚶', callback_data='start'),
-            InlineKeyboardButton('❗️ CONTACT ❗️', url='https://t.me/Rajneesh_Singh_Tomar')
+            InlineKeyboardButton('❗️ CONTACT ❗️', url='https://t.me/HACKERVINODSERA')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
